@@ -1,0 +1,115 @@
+.uprofile-reco-made img{
+	display: none;
+}
+
+.uprofile-content{
+	height: 560px;
+width: 994px;
+overflow-y: auto;
+margin-left: 60px;
+}
+
+.uimage-component .uprofile-pic{
+	height: 300px;
+width: 300px;
+border: 1px solid #cccccc;
+margin-top: 0px;
+}
+
+body{
+margin: 0px;
+}
+
+.uimage-component input{
+	width: 80px;
+	height: 30px;
+	background: #1E90FF;
+	border:none;
+	cursor: pointer;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.reco-header{
+	color: green;
+font-size: 30px;
+font-weight: bold;
+}
+
+.myReco-container{
+	height: 250px;
+margin-top: 10px;
+overflow-y: auto;
+}
+
+.my-reco-title-item{
+margin-bottom: 15px;
+}
+
+.my-reco-title-head{
+color: #1e90ff;
+font-size: 20px;
+font-weight: bold;
+}
+
+hr{
+	width: 500px;
+margin-left: 0px;
+}
+
+.uprofile-likes-bands{
+color: green;
+font-size: 30px;
+font-weight: bold;
+}
+
+.img-img{
+	display: inline-block;
+	width: 200px;
+}
+
+.img-img   img{
+height: 75px;
+width: 75px;
+margin-left: 63px;
+}
+
+.img-img  span{
+display: block;
+/* margin-top: -40px; */
+color: #1e90ff;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+}
+
+.bands-liked-container{
+	overflow-x: auto;
+}
+
+.uprofile-performs-in{
+	color: green;
+font-size: 30px;
+font-weight: bold;
+}
+
+.uprofile-band-info-invisible{
+	display: none;
+}
+
+.uprofile-followed{
+	background: red !important;
+}
+
+.user-name{
+margin-top: -90px;
+/* position: absolute; */
+text-align: center;
+/* color: grey; */
+font-weight: bold;
+margin-bottom: 5px;
+font-size: 20px;
+}
+
+

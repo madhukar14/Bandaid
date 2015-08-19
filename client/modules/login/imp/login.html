@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+<head>
+<link href="login.css" rel="stylesheet" type="text/css">
+<script data-main="/bandaid/client/lib/config" src="/bandaid/client/lib/require.js"></script>
+<script> 
+LOADMODULE = 'login/login'; 
+SERVER = '../../../server/';
+CLIENT = '../../';
+MODULES = CLIENT + 'modules/';
+ </script>
+<title> BAND-AID</title>
+</head>
+<body>
+	<form class = "upload-profile" enctype="multipart/form-data">
+    <input class="file" type="file" name="file">
+    <input class="upload" type="submit" value="Upload Image" name="submit">
+	</form>
+	<img class="display-pic" height="200" width="200"></img>
+</body>
+</html>
+

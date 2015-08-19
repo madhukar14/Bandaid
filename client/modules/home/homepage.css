@@ -1,0 +1,131 @@
+body{
+	margin: 0px;
+	overflow: hidden !important;
+}
+
+.navbar{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.navbar > li{
+display: inline-block;
+height: 42px;
+vertical-align: middle;
+text-align: center;
+//border:1px solid #cccccc;
+margin-top: 5px;
+margin-left: -4px;
+margin-right: 6px;
+color: grey;
+border-radius: 3px;
+}
+
+.navbar > li:hover{
+cursor: pointer;
+box-shadow: 1px 1px 1px #888888;
+background: #87CEFA;
+color: #fff;
+}
+
+.nav-home{
+width: 200px;
+//border-left: 1px solid #cccccc; 
+margin-left: 7px !important;
+}
+
+.nav-music{
+width: 200px;
+}
+
+.nav-plan{
+width: 230px;
+}
+
+.nav-reco{
+width: 250px;
+}
+
+.nav-members{
+width: 220px;
+}
+
+.nav-others{
+width: 210px;
+}
+
+.navbar > li > span{
+	display: block;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.navbar > li > span+span{
+margin-top: 4px !important;
+font-size: 14px;
+font-weight: normal !important;
+}
+
+.nav-highlight{
+color: #fff !important;
+box-shadow: 1px 1px 1px #888888;
+background: #87CEFA;
+}
+
+hr{
+margin-top: 4px;
+}
+
+
+.home-sys-reco, .vertical-divider, .home-frnd-reco{
+display: block;
+height: 500px;
+}
+
+.home-sys-reco, .home-frnd-reco{
+width: 673px;
+}
+
+.vertical-divider{
+	width: 0px;
+	border: 1px solid #cccccc;
+	border-right: none;	
+}
+
+.band-search-artist, .band-search-music, .band-search-name{
+width: 250px;
+height: 40px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+margin-left: 150px;
+}
+
+.music-holder{
+	margin-top: 20px;
+	width:100%;
+	height: 450px;	
+	overflow-y: auto;
+}
+
+#dialog{
+	background: #fff;
+}
+
+.review-stars{	
+	margin-left: 18px;
+	margin-bottom:10px;
+}
+
+.member-search-name{
+	width: 250px;
+height: 40px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+margin-left: 500px;
+}
+
+.nav-for-member-name, .nav-for-member-img, .nav-for-band-name, .nav-for-band-img, .nav-for-concert-name, .nav-for-concert-img{
+	cursor: pointer;
+}
+

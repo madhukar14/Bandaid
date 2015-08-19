@@ -1,0 +1,59 @@
+.concert-container .concert-item{
+	width: 300px !important;
+display: inline-block;
+margin-left: 30px;
+margin-top: 15px;
+}
+
+.concert-container  .concert-name{
+	text-align: center;
+font-size: 20px;
+color: #1E90FF;
+font-weight: bold;
+}
+
+.concert-container table{
+	margin-top: -10px
+}
+
+.concert-container img{
+	width: 100px;
+height: 100px;
+}
+
+.concert-container .concert-venue{
+	margin-top: 20px;
+}
+
+.concert-container .concert-band-name{
+	margin-top: 20px;
+}
+
+.concert-container  .concert-rsvp, .concert-container  .concert-review, .concert-container  .concert-attenders{
+	margin-top: 5px;
+	height: 30px;
+	width: 110px;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+	//color: #fff;
+	background: #fff;
+}
+
+.concert-search-music, .concert-search-artist, .concert-search-venue, .concert-search-name{
+	width: 250px;
+height: 40px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+margin-left: 80px;
+}
+
+.concert-unrsvp{
+	color: #fff;
+	background: #1E90FF !important;
+}
+
+.concert-reco-by-title{
+	margin-top: 10px;
+}
+
+

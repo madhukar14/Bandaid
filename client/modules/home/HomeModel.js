@@ -1,0 +1,3 @@
+HomeModel = Backbone.Model.extend({
+	
+});

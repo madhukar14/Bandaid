@@ -1,0 +1,110 @@
+.band-image{
+	width: 99.8%;
+height: 300px;
+border: 1px solid #cccccc;
+}
+
+body{
+margin: 0px;
+}
+
+input{
+	margin-right: 15px;
+cursor: pointer;
+color: #fff;
+background: #1E90FF;
+border: none;
+height: 35px;
+width: 120px;
+margin-top: 10px;
+margin-left: 20px;
+}
+
+.first-td{
+	width: 80px;
+height: 258px;
+padding-right: 100px;
+/* padding-left: 50px; */
+/* margin-top: 10px; */
+border-right: 2px solid #cccccc;
+}
+
+.review-comp-tab{
+	margin-top: 5px;
+}
+
+.second-td{
+overflow-y: auto;
+height: 258px;
+width: 1180px;
+}
+
+.band-name{
+	width: 800px;
+margin-left: 140px;
+height: 25px;
+color: #1E90FF;
+/* border: 1px solid #cccccc; */
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+}
+
+.band-liked{
+	background: red;
+}
+
+.band-review-section{
+	height: 213px;
+overflow-y: auto;
+margin-top: 15px;
+}
+
+.review-item span{
+display: inline-block;	
+text-align: center;
+}
+
+.review-item{
+text-align: center;
+margin-bottom: 18px;
+}
+
+.who-r{
+	width: 900px;
+	text-align: center;
+	color: red;
+font-size: 15px;
+}
+
+.what-r{
+	width: 900px;
+	text-align: center;
+	font-size: 20px;
+color: green;
+}
+
+.review-tarea{
+	width: 265px;
+	height: 200px;
+}
+
+.review-submit{
+	margin-top: 15px;
+	color: #fff;
+	background: #1E90FF;
+	margin-left: 100px;
+	width: 70px;
+	height: 35px;
+	border: none;
+}
+
+.review-submit:hover{
+	border:1px solid #cccccc;
+	cursor: pointer;
+}
+
+#dialog{
+	background: #fff;
+}
+

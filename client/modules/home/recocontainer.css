@@ -1,0 +1,141 @@
+.reco-container{
+width: 650px;
+height: 485px;
+margin-left: 15px;
+}
+
+.band-data, .concert-data, .music-data{
+height: 300px !important;
+padding: 25px !important;
+}
+
+
+
+.home-sys-reco .band-item{
+	height: 160px;
+	width: 290px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+
+.home-sys-reco  .band-item > span{
+	color: #1E90FF;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 5px;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.home-sys-reco  .band-item > span:hover{
+	cursor: pointer;
+}
+
+.home-sys-reco  .band-item > img{
+	margin-top: 5px;
+	height: 100px;
+	width: 100px;
+	margin-left: 95px;
+}
+
+.home-sys-reco  .band-item > img:hover{
+	cursor: pointer;
+}
+
+.home-sys-reco  .band-item > div{
+	margin-top: 5px;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+//user recommendation
+.home-frnd-reco  .band-item{
+	height: 160px;
+	width: 580px;
+	//display: inline-block;
+	margin-bottom: 15px;
+}
+
+.home-frnd-reco  .band-item  .band-item-holder  span{
+	color: #1E90FF;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 5px;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.home-frnd-reco  .band-item  .band-item-holder  img{
+	margin-top: 5px;
+	height: 100px;
+	width: 100px;
+	margin-left: 50px;
+}
+
+.home-frnd-reco  .band-item  .band-item-holder div{
+	margin-top: 5px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.band-item-image-cont{
+	width: 200px;
+}
+
+.home-sys-reco .loading, .home-frnd-reco .loading{
+	margin-left: 240px;
+	margin-top: 100px;
+}
+
+.td-img-comp{
+	width: 200px;
+}	
+
+.td-img-comp span{
+	width: 200px;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+color: #1E90FF;
+font-weight: bold;
+font-size: 18px;
+}
+
+.td-img-comp  img{
+height: 100px;
+width: 100px;
+margin-left: 50px;
+margin-top: -10px;
+}
+
+.c-perf-by{
+	margin-top: 30px;
+}
+
+.home-sys-reco  .concert-item{
+	margin-bottom: 20px;
+}
+
+.concert-item-image-cont span{
+	color: #1E90FF;
+display: block;
+width: 100%;
+text-align: center;
+font-weight: bold;
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.concert-item-image-cont  img{
+width: 200px;
+height: 150px;
+}
+
+.c-something{
+	padding-left: 20px;
+}

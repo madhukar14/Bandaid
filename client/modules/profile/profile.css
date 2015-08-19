@@ -1,0 +1,123 @@
+.user-details   input{ 
+	height: 35px;
+	border: 1px solid #cccccc;
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 300px;
+	margin-left: 500px;
+	
+}
+
+.music input{
+	border: none !important;
+	color: #fff;
+	background: #1E90FF;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+body{
+	margin: 0px;
+}
+
+.male,.female{
+	border-radius: none !important;
+	margin-top: 15px !important;
+	width: 15px !important;
+	height: 15px !important;
+	margin-left: 500px !important;
+}
+
+.female{
+	margin-left: 20px !important;
+}
+
+.error{
+	display: none;
+}
+
+.country{
+		height: 35px;
+	border: 1px solid #cccccc;
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 300px;
+	margin-left: 500px !important;
+}
+
+.profile-picture, .band-picture{
+	height: 170px;
+	width: 170px;
+	border: 1px solid #cccccc;
+	margin-left: 20px;
+}
+
+.user-details{
+	
+	display: inline-block;
+}
+
+.image-component{
+	display:inline-block;
+	position: absolute;
+margin-top: 5px;
+}
+
+.image-component input{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.save-details{
+	color: #fff;
+background: #1E90FF;
+margin-left: 10px;
+border: 2px solid #1E90FF;
+font-size: 12px;
+margin-left: 600px;
+margin-top: 20px;
+height: 35px;
+}
+
+.save-details:hover{
+	cursor: pointer;
+}
+
+
+.profile-band-pic{
+	display:inline-block;
+	position: absolute;
+margin-top: 300px;
+}
+
+.profile-band-pic input{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.image-component span{
+	margin-left: 20px;
+}
+
+.profile-band-pic span{
+	margin-left: 20px;
+}
+
+.invisible{
+	display:none;
+}
+
+.sign-up-but-back-music-next{
+color: #fff;
+background: #1E90FF;
+border: none;
+cursor: pointer;
+width: 80px;
+margin-left: 90px;
+height: 30px;
+margin-top: 15px;
+}
+
+#dialog{
+	background: #fff;
+}

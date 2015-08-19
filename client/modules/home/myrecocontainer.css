@@ -1,0 +1,109 @@
+.my-reco-item img{
+height: 30px;
+width: 30px;
+border: 1px solid #cccccc;
+cursor: pointer;
+margin-right: 20px;
+}
+
+.my-reco-item{
+margin-top: 10px;
+}
+
+.my-reco-title-item{
+	margin-top: 20px;
+}
+
+.my-reco-title-item  hr{
+width: 600px;
+margin-left: 0px;
+}
+
+.myReco-container{
+	height: 464px;
+	overflow-y: auto;
+}
+
+.my-reco-title-head{
+color: #1E90FF;
+font-size: 20px;
+font-weight: bold;
+}
+
+.my-reco-recommend, .my-reco-add-concert, .my-reco-show-concert{
+width: 200px;
+margin-right: 20px;
+color: #fff;
+height: 30px;
+border: none;
+cursor: pointer;
+background: #1E90FF;
+font-weight: bold;
+}
+
+.add-new-reco-details{
+	color: #1E90FF;
+}
+
+.add-reco-or{
+	margin-left: 70px;
+	margin-top:15px;
+}
+
+.add-existing-reco-title{
+	color: #1E90FF;
+margin-top: 15px;
+}
+
+.reco-new-title{
+	margin-bottom: 10px;
+width: 400px;
+}
+
+.reco-title-select-list{
+	margin-bottom: 15px;
+width: 300px;
+}
+
+.reco-select-concert-to-rec{
+	color: #1e90FF;
+margin-top: 30px;
+}
+
+.reco-concert-select-list{
+	margin-bottom: 20px;
+}
+
+.why-this-reco{
+	width: 400px;
+margin-bottom: 20px;
+}
+
+.add-reco-now{
+	width: 200px;
+height: 30px;
+color: #fff;
+cursor: pointer;
+border: none;
+background: #1E90FF;
+}
+
+
+
+.add-concert-name, .add-concert-bands, .add-concert-venues, .add-concert-start-date , .add-concert-end-date, .add-concert-start-time, .add-concert-end-time, .add-concert-fee, .add-concert-capacity, .add-concert-start-tickets, .add-concert-submit{
+
+width: 300px;
+height: 30px;
+margin-bottom: 10px;
+margin-left: 100px;
+	
+}
+
+.add-concert-submit{
+	height: 30px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	background: #1E90FF;
+}

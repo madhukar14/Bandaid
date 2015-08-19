@@ -1,0 +1,238 @@
+body{
+	margin: 0px;
+	background-image: url("/bandaid/client/lib/css/images/background.jpg");
+}
+
+.error{
+	display: none;
+	margin-left: 37.5%;
+	color: red;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+
+.fname{
+	
+}
+
+.lname{
+}
+
+.email{
+}
+
+.phone{
+}
+
+.password{
+}
+
+.dob{
+}
+
+.gender{
+}
+
+.address{
+}
+
+
+
+.sign-up > div:not(.music-holder) > input{
+	height: 30px;
+	width: 300px;
+	border: 1px solid #cccccc;
+	font-size: 14px;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-left: 50px;
+	color: #1E90FF;
+}
+
+.sign-up-but{
+	height: 35px;
+width: 80px;
+background: #1E90FF;
+margin-left: 75px;
+margin-top: 20px;
+color: #fff;
+border-radius: 5px;
+font-weight: bold;
+border: none;
+display: inline-block;
+}
+
+.sign-up-back{
+	height: 35px;
+width: 80px;
+background: #1E90FF;
+margin-left: 75px;
+margin-top: 20px;
+color: #fff;
+border-radius: 5px;
+font-weight: bold;
+border: none;
+display: inline-block;
+
+}
+
+.sign-up-but:hover, .sign-up-back:hover{
+	border: 1px solid #1E90FF;
+	cursor: pointer;
+}
+
+.type-of-user, .type-of-band {
+	width: 110px;
+margin-left: 140px;
+margin-top: 20px;
+color: #1E90FF;
+}
+
+.type-of-band {
+	width: 200px;
+}
+
+.sign-up-header{
+	width: 400px;
+height: 35px;
+margin-left: 438px;
+margin-top: 50px;
+vertical-align: middle;
+text-align: center;
+padding-top: 12px;
+border: 1px solid #cccccc;
+background: #5bb75b;
+color: #fff;
+}
+
+.sign-up{
+	width: 400px;
+height: 100px;
+margin-left: 438px;
+vertical-align: middle;
+border: 1px solid #cccccc;
+//background: aliceblue;
+}
+
+.artist, .group{
+	margin-top: 20px;
+}
+
+.sign-up-but-back-page2{
+	height: 35px;
+width: 80px;
+background: #1E90FF;
+margin-left: 170px;
+margin-top: 10px;
+color: #fff;
+border-radius: 5px;
+font-weight: bold;
+border: none;
+display: inline-block;
+}
+
+.sign-up-but-back-page2:hover{
+	border: 1px solid #1E90FF;
+	cursor: pointer;
+}
+
+.music-info-header{
+text-align: center;
+color: #1E90FF;
+margin-top: 10px;
+font-size: 18px;
+font-weight: bold;
+}
+
+.music-holder > input{
+	margin-left: 125px;
+margin-top: 10px;
+color: #1E90FF;
+}
+
+
+
+.music-holder{
+	color: #1E90FF;
+	overflow-y: auto;
+height: 180px;
+}
+
+.sign-up-but-back-music-pg, .sign-up-but-back-music-next{
+	height: 35px;
+width: 80px;
+background: #1E90FF;
+margin-left: 85px;
+margin-top: 20px;
+color: #fff;
+border-radius: 5px;
+font-weight: bold;
+border: none;
+display: inline-block;
+}
+
+.sign-up-but-back-music-pg:hover, .sign-up-but-back-music-next:hover{
+	border: 1px solid #1E90FF;
+	cursor: pointer;
+}
+
+.sign-up-but-back-band-pg, .sign-up-but-back-band-next{
+	height: 35px;
+width: 80px;
+background: #1E90FF;
+margin-left: 85px;
+margin-top: 20px;
+color: #fff;
+border-radius: 5px;
+font-weight: bold;
+border: none;
+display: inline-block;
+}
+
+.sign-up-but-back-band-pg:hover, .sign-up-but-back-band-next:hover{
+	border: 1px solid #1E90FF;
+	cursor: pointer;
+}
+
+.band-name{
+	width: 320px;
+height: 35px;
+margin-left: 40px;
+margin-top: 20px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+}
+
+.or{
+	margin-left: 170px;
+}
+
+.band-list{
+	width: 320px;
+margin-left: 40px;
+height: 30px;
+border: 1px solid #cccccc;
+border-radius: 5px;	
+}
+
+.login-but{
+color: #fff;
+background: #1E90FF;
+margin-left: 10px;
+border: 2px solid #1E90FF;
+font-size: 12px;
+}
+
+.login-but:hover{
+	cursor: pointer;
+}
+
+.login-cred{
+	padding-left: 700px
+}
+
+
+
+
+

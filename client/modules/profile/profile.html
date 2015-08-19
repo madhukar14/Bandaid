@@ -1,0 +1,77 @@
+<!DOCTYPE>
+<html>
+<head>
+<link href="/bandaid/client/modules/templates/tcss/header.css" rel="stylesheet" type="text/css">
+<link href="/bandaid/client/modules/profile/profile.css" rel="stylesheet" type="text/css">
+<link href="/bandaid/client/lib/css/jquery-ui.css" rel="stylesheet" type="text/css">
+<link href="/bandaid/client/lib/css/jquery-ui.structure.css" rel="stylesheet" type="text/css">
+<link href="/bandaid/client/lib/css/jquery-ui.theme.css" rel="stylesheet" type="text/css">
+<script data-main="/bandaid/client/lib/config" src="/bandaid/client/lib/require.js"></script>
+<script> 
+LOADMODULE = 'profile/Profile'; 
+ </script>
+<title> BAND-AID</title>
+</head>
+<body>
+<div class="profile-main">
+	<div class="profile-header"></div>
+	<div class="image-component">
+	<span>Upload Profile</span><br>
+	<img class="profile-picture"></img>	
+	<form class = "upload-profile" enctype="multipart/form-data">
+    <input class="choose-file" type="file" name="file" value="Upload Image"></input><br>
+    <input class="upload-file" value="Submit" type="submit"></input>
+	</form>	
+	</div>
+	<div class="profile-band-pic invisible">
+	<span>Upload band picture</span><br>
+	<img class="band-picture"></img>	
+	<form class = "upload-band-pic" enctype="multipart/form-data">
+    <input class="choose-file" type="file" name="file" value="Upload Image"></input><br>
+    <input class="upload-file" value="Submit" type="submit"></input>
+	</form>
+	</div>
+	
+	<div class="user-details">
+	<div class="fname">
+		<input type="textfield" placeholder="First Name"></input><br>
+		<span class="error">Special Characters not allowed</span>
+	</div>
+	<div class="lname">
+		<input type="textfield" placeholder="Last Name"></input><br>
+		<span class="error">Special Characters not allowed</span>
+	</div>
+	<div class="music">
+		<input type="button" value="Click to select music"></input><br>
+		<span class="error">Enter valid Email id</span>
+	</div>
+	<div class="phone">
+		<input type="textfield" placeholder="Phone Number"></input><br>
+		<span class="error">Enter valid phone number</span>
+	</div>
+	<div class="dob">
+		<input type="text" id="datepicker" placeholder="DOB MM/DD/YYYY"><br>
+		<span class="error">Choose a vaild date</span>
+	</div>
+	<div class="gender">
+		<form action="">
+			<input class="male" type="radio" name="gender" value="male">Male
+			<input class="female" type="radio" name="gender" value="female">Female
+		</form>
+	</div>
+	<div class="address">
+		<input class = "city" type="textfield" placeholder="City"></input><br>
+		<input class="street" type="textfield" placeholder="Street"></input><br>
+		<input class = "state" type="textfield" placeholder="State"></input><br>
+		<input class = "zip-code" type="textfield" placeholder="Zip Code"></input><br>
+		<select class="country" ></select>
+	</div>
+	</div><br>
+	
+	<input type="button" class="save-details" value="SAVE DETAILS"></input>
+	
+	<div id="dialog" title="Basic dialog">	
+	</div>
+</div>
+</body>
+</html>

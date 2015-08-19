@@ -1,0 +1,111 @@
+.music-container  .band-item{
+	height: 160px;
+	width: 290px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.music-container{
+	margin-top: 20px;
+	margin-left: 30px;
+	height: 450px;
+	overflow-y: auto;
+}
+
+.music-container  .band-item  span{
+	color: #1E90FF;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 5px;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.music-container  .band-item  span:hover{
+	cursor: pointer;
+}
+
+.music-container  .band-item  img{
+	margin-top: 5px;
+	height: 100px;
+	width: 100px;
+	margin-left: 95px;
+}
+
+.music-container  .band-item   img:hover{
+	cursor: pointer;
+}
+
+.music-container  .band-item  div{
+	margin-top: 5px;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+
+.music-container .band-like{
+	width: 70px;
+height: 30px;
+margin-bottom: 5px;
+margin-top: 10px;
+margin-left: 10px;
+background: #fff;
+border:  1px solid #cccccc;
+}
+
+.music-container .band-review{
+	width: 70px;
+height: 30px;
+margin-bottom: 5px;
+margin-left: 10px;
+background: #fff;
+border:  1px solid #cccccc;
+}
+
+.music-container .band-fans{
+	width: 70px;
+height: 30px;
+margin-bottom: 5px;
+margin-left: 10px;
+background: #fff;
+border:  1px solid #cccccc;
+}
+
+.music-container .band-like:hover, .music-container .band-review:hover, .music-container .band-fans:hover{
+	cursor: pointer;
+}
+
+.band-liked{
+	background: #1E90FF !important;
+	color: #fff !important;
+	font-weight: bold;
+}
+
+.band-reviewed{
+	background: #5bb75b !important;
+	color: #fff !important;
+	font-weight: bold;
+}
+
+.review-tarea{
+	width: 265px;
+	height: 200px;
+}
+
+.review-submit{
+	margin-top: 15px;
+	color: #fff;
+	background: #1E90FF;
+	margin-left: 100px;
+	width: 70px;
+	height: 35px;
+	border: none;
+}
+
+.review-submit:hover{
+	border:1px solid #cccccc;
+	cursor: pointer;
+}
+
